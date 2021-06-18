@@ -3,6 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/**
+ *main-this is to print positive
+ *Return: negative and a zero number from a randomly generated funcion
+ */
+
 /* betty style doc for function main goes there */
 int main(void)
 {
