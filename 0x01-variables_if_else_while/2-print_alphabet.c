@@ -11,11 +11,18 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char small_alphabet;
+	char *small_alphabet;
+	size_t i = 0;
+	char catch;
 
-	small_alphabet = 'abcdefghijklmnopqrstuvwxyz';
+	small_alphabet = "abcdefghijklmnopqrstuvwxyz";
 	/* your code goes there */
-	putchar(small_alphabet)
+	for (; i < 26; i++)
+	{
+	catch = small_alphabet[i];
+	putchar(catch);
+	}
+	putchar('\n');
 	return (0);
 }
 
