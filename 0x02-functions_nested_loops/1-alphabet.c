@@ -1,9 +1,8 @@
 #include "holberton.h"
+
 /**
- *
- *print_alphabet - prototype in holberton.h
- *
- *Return: fuction for lowercase charactors
+ *print_alphabet-prototype in holberton.h
+ *return: fuction for lowercase charactors
  */
 	void print_alphabet(void)
 	{
