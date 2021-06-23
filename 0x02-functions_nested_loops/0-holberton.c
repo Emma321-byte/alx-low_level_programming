@@ -1,5 +1,5 @@
-#include <time.h>
-#include <stdio.h>
+#include "holberton.h"
+
 /* more headers goes there */
 
 /**
@@ -10,7 +10,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char n[10] = "Holberton";
+	char n[] = "Holberton";
 	int i;
 
 	for (i = 0; i < 10; i++)
