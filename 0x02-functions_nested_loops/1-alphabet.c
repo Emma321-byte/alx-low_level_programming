@@ -1,13 +1,10 @@
 #include "holberton.h"
-/* more headers goes there */
-
 /**
- *main - prototype in holberton.h
+ *
+ *print_alphabet - prototype in holberton.h
  *
  *Return: fuction for lowercase charactors
  */
-
-/* betty style doc for function main goes there */
 	void print_alphabet(void)
 	{
 	int i;
