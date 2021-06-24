@@ -1,13 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - tests function that prints if integer is positive or negative
- * Return: 0
- */
+* main-tests function that prints if integer is positive or negative
+* Return: the types of numbers
+*/
 
 void positive_or_negative(int i)
 {
-
 	/* your code goes there */
 	if (i == 0)
 	{
